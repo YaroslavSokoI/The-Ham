@@ -1,0 +1,256 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("images/sections-background/section-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+nav {
+    background-color: rgba(94, 93, 88, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+section {
+    background-color: white;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 78px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 21px;
+}
+
+.nav-menu::after {
+    content: url("./images/search.png");
+}
+
+.nav-menu a:hover {
+    color: #18CFAB;
+}
+
+.link1:hover::after {
+    content: url("./images/underline-link.svg");
+    position: absolute;
+    left: 873px;
+    top: 103px;
+}
+
+.link2:hover::after {
+    content: url("./images/underline-link2.svg");
+    position: absolute;
+    left: 943px;
+    top: 103px;
+}
+
+.link3:hover::after {
+    content: url("./images/underline-link3.svg");
+    position: absolute;
+    left: 1025px;
+    top: 103px;
+}
+
+.link4:hover::after {
+    content: url("./images/underline-link4.svg");
+    position: absolute;
+    left: 1095px;
+    top: 103px;
+}
+
+.link5:hover::after {
+    content: url("./images/underline-link5.svg");
+    position: absolute;
+    left: 1172px;
+    top: 103px;
+}
+
+.link6:hover::after {
+    content: url("./images/underline-link6.svg");
+    position: absolute;
+    left: 1266px;
+    top: 103px;
+}
+
+.link7:hover::after {
+    content: url("./images/underline-link7.svg");
+    position: absolute;
+    left: 1340px;
+    top: 103px;
+}
+
+.section1-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    margin: 250px 0px 67px 0px;
+}
+
+.sub-topic span {
+    color: #18CFAB;
+}
+
+.sub-text {
+    font-weight: 400;
+    font-size: 34px;
+    color: #D4D4D4;
+}
+
+.section1-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+}
+
+.explore-btn {
+    font-weight: 700;
+    font-size: 15px;
+    width: 165px;
+    height: 60px;
+    text-transform: uppercase;
+    color: white;
+    background: #18CFAB;
+    border: none;
+    border-radius: 5px;
+}
+
+.purchase-btn {
+    font-weight: 700;
+    font-size: 15px;
+    width: 165px;
+    height: 60px;
+    text-transform: uppercase;
+    color: white;
+    background: #00CBF6;
+    border: none;
+    border-radius: 5px;
+}
+
+.layout-btn {
+    z-index: -1;
+    position: relative;
+    top: 55px;
+    width: 165px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 5px;    
+}
+
+.options {
+    display: grid;
+    margin-top: 240px;
+    border-top: 8px solid white;
+    grid-template-areas: 
+    "option1 option2 option3 option4";
+}
+
+.option1, .option2, .option3, .option4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 103px;
+}
+
+.option1, .option3 {
+    padding-top: 85px;
+    gap: 48px;
+    background-color: #1C2A33;
+}
+
+.option2, .option4 {
+    padding-top: 103px;
+    gap: 58px;
+    background-color: #18CFAB;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+}
+
+.service-title {
+    display: flex;
+    justify-content: center;
+    padding: 16px 0px;
+    width: 194px;
+    color: #717171;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 39px;
+    background: #F8FCFE;
+    border: 1px solid #EDEFEF;
+}
+
+.service-title:hover {
+    border: 1.5px solid #18CFAB;
+}
+
+.service-title.active { 
+    border: none;
+    color: #FFFFFF;
+    background-color: #18CFAB;
+    cursor: pointer;
+}
+
+.services-content {
+    color: #777777;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.content {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+    opacity: 0;
+}
+
+.content.active {
+    opacity: 1;
+    position: absolute;
+    top: 1330px;
+}
