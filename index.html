@@ -5,47 +5,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>The Ham</title>
 </head>
 
 <body>
-    <nav>
-        <div class="container">
-            <div class="nav">
-                <img src="./images/logo.svg" alt="Logo">
-                <div class="nav-menu">
-                    <a class="link1" href="#">Home</a>
-                    <a class="link2" href="#">About</a>
-                    <a class="link3" href="#">Blog</a>
-                    <a class="link4" href="#">Skills</a>
-                    <a class="link5" href="#">Service</a>
-                    <a class="link6" href="#">Work</a>
-                    <a class="link7" href="#">Testimonial</a>
+    <header class="header-page">
+        <nav class="navigation">
+            <div class="container header-container">
+                <div class="container-navigation">
+                    <a class="image-item" href="#">
+                        <span class="logo-h">H</span>
+                        <span class="text-logo">the<span class="text-logo-accent">Ham</span></span>
+                    </a>
+                </div>
+                <div class="container-navigation-two">
+                    <ul class="navigation-list">
+                        <li class="navigation-item"><a class="navigation-link" href="#">HOME</a></li>
+                        <li class="navigation-item"><a class="navigation-link" href="#">ABOUT</a></li>
+                        <li class="navigation-item"><a class="navigation-link" href="#">BLOG</a></li>
+                        <li class="navigation-item"><a class="navigation-link" href="#">SKILLS</a></li>
+                        <li class="navigation-item"><a class="navigation-link" href="#">SERVICE</a></li>
+                        <li class="navigation-item"><a class="navigation-link" href="#">WORK</a></li>
+                        <li class="navigation-item"><a class="navigation-link" href="#">TESTIMONIAL</a></li>
+                    </ul>
+                    <a class="navigation-link-image" href="#"><img src="./images/search.png" alt="Search" width="21"
+                            height="20"></a>
                 </div>
             </div>
+        </nav>
+        <div class="section1-text">
+            <h3 class="sub-topic">The Ham is <span>Wordpress theme</span></h3>
+            <h1 class="topic">we are creative</h1>
+            <h4 class="sub-text">Just Buy And Enjoy These Awesome Features</h4>
         </div>
-    </nav>
-
-    <header>
-        <div class="container">
-            <div class="section1-text">
-                <h3 class="sub-topic">The Ham is <span>Wordpress theme</span></h3>
-                <h1 class="topic">we are creative</h1>
-                <h4 class="sub-text">Just Buy And Enjoy These Awesome Features</h4>
-            </div>
-            <div class="section1-buttons">
-                <div class="explore-now">
-                    <div class="layout-btn"></div>
-                    <button class="explore-btn">Explore Now</button>
-                </div>
-                <div class="purchase-now">
-                    <div class="layout-btn"></div>
-                    <button class="purchase-btn">Purchase Now</button>
-                </div>
-            </div>
+        <div class="section1-buttons">
+            <button class="advertising-link-explore link">explore now</button>
+            <button class="advertising-link-purchase link">purchase now</button>
         </div>
     </header>
 
@@ -71,48 +71,431 @@
     </section>
 
     <section>
-        <div class="container">
-            <h2>Our Services</h2>
-            <ul class="services">
-                <li class="service-title active" data-tab="web-design">Web Design</li>
-                <li class="service-title" data-tab="graphic-design">Graphic Design</li>
-                <li class="service-title" data-tab="online-support">Online Support</li>
-                <li class="service-title" data-tab="app-design">App Design</li>
-                <li class="service-title" data-tab="online-marketing">Online Marketing</li>
-                <li class="service-title" data-tab="seo-service">Seo Service</li>
-            </ul>
-            <div class="services-content">
-                <div class="content active" data-tab="web-design">
-                    <img  src="./images/web-design.jpg" alt="Web Design">
-                    <p class="active">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                </div>
-                <div class="content" data-tab="graphic-design">
-                    <img src="./images/graphic-design.jpg" alt="Graphic Design">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-                <div class="content" data-tab="online-support">
-                    <img src="./images/online-supprot.jpg" alt="Online Supportx">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-                <div class="content" data-tab="app-design">
-                    <img src="./images/graphic-design.jpg" alt="Graphic Design">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-                <div class="content" data-tab="online-marketing">
-                    <img src="./images/graphic-design.jpg" alt="Graphic Design">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
-                </div>
-                <div class="content" data-tab="seo-service">
-                    <img src="./images/graphic-design.jpg" alt="Graphic Design">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="section3">
+            <div class="container">
+                <h2 class="section3-topic">Our Services</h2>
+                <ul class="tabs">
+                    <li class="tabs-title active" data-tab="web-design">Web Design</li>
+                    <li class="tabs-title" data-tab="graphic-design">Graphic Design</li>
+                    <li class="tabs-title" data-tab="online-support">Online Support</li>
+                    <li class="tabs-title" data-tab="app-design">App Design</li>
+                    <li class="tabs-title" data-tab="online-marketing">Online Marketing</li>
+                    <li class="tabs-title" data-tab="seo-service">Seo Service</li>
+                </ul>
+                <ul class="tabs-content">
+                    <li class="content web-design" data-tab="web-design">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Iste odit cupiditate perspiciatis esse neque quae consequatur beatae, atque
+                        minima ullam laudantium corporis eum soluta natus officia animi vero deleniti voluptates
+                        provident rem commodi doloribus quidem voluptatem. Odio voluptatem architecto nemo recusandae
+                        tenetur dignissimos velit. Perferendis dolorum tenetur doloremque quod assumenda aspernatur
+                        rerum quae, fugit sit harum nobis tempora hic fuga sequi aut saepe accusantium non ab, facilis
+                        vitae similique numquam quisquam beatae? Facere, doloribus, voluptates praesentium numquam
+                        neque, repellendus in porro nihil voluptatum quas eveniet molestiae aliquam est odit ratione sed
+                        architecto. Odit assumenda recusandae est.</li>
+                    <li style="display: none;" class="content graphic-design" data-tab="graphic-design">Lorem ipsum
+                        dolor sit amet consectetur adipisicing elit. Reprehenderit unde, maxime doloribus incidunt, quis
+                        voluptas saepe natus harum iure laborum dignissimos at dolorem eius sapiente laudantium delectus
+                        eos accusamus distinctio? Ullam soluta omnis, quod id facilis quo est explicabo dicta tenetur a
+                        magnam ipsam libero doloribus accusantium sequi sit, modi fuga cum illo laborum eum? Nam omnis
+                        molestias doloribus quidem quisquam corporis itaque eos fuga, laborum explicabo aperiam sit
+                        recusandae cumque, tempore placeat iusto sunt praesentium a ipsum consequatur quasi quae illo.
+                        Atque labore tempore vel consequuntur? Delectus nam voluptatem laboriosam, minus quibusdam
+                        libero incidunt ad.</li>
+                    <li style="display: none;" class="content online-support" data-tab="online-support">Lorem ipsum
+                        dolor, sit amet consectetur adipisicing elit. Vel itaque eveniet tenetur molestias nulla, quas
+                        eos cumque dolores quos culpa dignissimos praesentium repudiandae, minus, ea illo suscipit illum
+                        aperiam ducimus tempore. Fugit suscipit laudantium corrupti nobis quo quibusdam pariatur
+                        accusantium quos illo tempore eos aspernatur tempora inventore corporis minima, debitis quisquam
+                        doloremque eum odit. Quasi voluptates ratione, unde nobis ullam dolorum? Aut possimus ut libero
+                        fugit unde placeat aliquam esse maxime repellat facere amet culpa quae consequatur vel, alias
+                        perspiciatis a fuga tempora aspernatur labore voluptatem magni saepe eius. Commodi autem sint
+                        illum eos obcaecati ex.</li>
+                    <li style="display: none;" class="content app-design" data-tab="app-design">Lorem ipsum dolor sit
+                        amet, consectetur adipisicing elit. Quod tempore esse eos non incidunt quis, corporis nobis, nam
+                        alias odit doloribus quaerat exercitationem velit? Ullam, laboriosam numquam consequatur quis
+                        beatae nostrum cum debitis ipsum reprehenderit voluptas voluptatibus velit delectus quam nemo,
+                        ex ipsam. Obcaecati soluta dolor incidunt culpa corrupti libero quasi nesciunt ut distinctio
+                        autem blanditiis, possimus assumenda ipsum, tenetur eaque magnam maiores temporibus quas. Ab
+                        incidunt recusandae itaque placeat quos. Delectus sequi corrupti totam mollitia dolorem omnis
+                        eos voluptates ipsam labore odit corporis consequatur, incidunt adipisci quas repudiandae
+                        repellendus perspiciatis nesciunt provident!</li>
+                    <li style="display: none;" class="content online-marketing" data-tab="online-marketing">Lorem ipsum
+                        dolor sit amet consectetur, adipisicing elit. Neque, alias veniam eligendi repellat, obcaecati
+                        enim labore accusamus hic impedit officia ex tempore accusantium molestiae, amet mollitia modi
+                        saepe. Ipsum numquam animi asperiores maxime fugit quae error, eius consectetur totam nesciunt.
+                        Amet quas dolorem fuga quibusdam necessitatibus fugiat dignissimos autem repudiandae, excepturi
+                        molestiae, exercitationem voluptas soluta impedit! Ipsam, molestiae quam eum sint iste deleniti
+                        adipisci, corrupti atque vitae quis illum cupiditate aspernatur incidunt eius voluptates ullam
+                        rem sed totam nihil maxime itaque. Accusamus blanditiis quasi nam quos id labore soluta nihil
+                        error. Ratione excepturi numquam odio illo.</li>
+                    <li style="display: none;" class="content seo-service" data-tab="seo-service">Lorem ipsum dolor sit
+                        amet consectetur adipisicing elit. Laborum expedita tenetur vel quas assumenda aliquid quaerat
+                        voluptate odio laudantium sint blanditiis, cumque, aspernatur impedit, molestiae rerum ipsam!
+                        Veritatis dolorem assumenda cum fugiat laudantium! Ducimus beatae eius soluta corporis nostrum
+                        necessitatibus blanditiis minima perferendis culpa amet, nam porro reprehenderit mollitia quasi
+                        quae optio expedita ut? Iste, autem pariatur iusto vitae omnis quos itaque. Molestiae dolores
+                        dolore sunt, voluptas tempora quia porro necessitatibus doloribus quis sint corrupti, pariatur
+                        quasi in fugiat ab delectus perferendis tenetur saepe ipsam excepturi praesentium. Omnis
+                        veritatis voluptate maxime eos dolorem aut molestiae.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section4">
+        <div class="bg-blure">
+            <div class="container">
+                <div class="section4-contents">
+                    <div class="section4-topics">
+                        <p class="section4-topic">Everything is ready. just buy and install now</p>
+                        <h4 class="section4-subtopic">Smooth reliable, responsive ready, perfect portfolio, unique blog
+                            layout and many many options for you</h4>
+                    </div>
+                    <button class="advertising-link-purchase link" style="background-color: #18CFAB;">purchase
+                        now</button>
                 </div>
             </div>
         </div>
     </section>
 
-    <script src="./scripts/main.js"></script>
-</body>
+    <section>
+        <div class="section5">
+            <div class="container">
+                <h2 class="section5-topic">Our Amazing Work</h2>
+                <ul class="list-work">
+                    <li class="works-title works-title-active" data-id="all" style="padding: 14px 30px;">All</li>
+                    <li class="works-title" data-id="graphic-design">Graphic Design</li>
+                    <li class="works-title" data-id="web-design">Web Design</li>
+                    <li class="works-title" data-id="landing-pages">Landing Pages</li>
+                    <li class="works-title" data-id="wordpress">Wordpress</li>
+                </ul>
+                <ul class="list-work-image">
+                    <li class="item-work-image" data-id="graphic-design">
+                        <img src="./images/graphic-design/graphic-design1.jpg" alt="Graphic design" width="284"
+                            height="206">
+                        <div class="item-work-position">
+                            <a href="#">
+                                <img class="icon" src="./images/button-icon.svg" alt="Icon" width="88" height="43">
+                            </a>
+                            <p class="text-work">creative design</p>
+                            <p class="text-work-web">Graphic Design</p>
+                        </div>
+                    </li>
+                    <li class="item-work-image" data-id="graphic-design">
+                        <img src="./images/graphic-design/graphic-design2.jpg" alt="Graphic design" width="284"
+                            height="206">
+                        <div class="item-work-position">
+                            <a href="#">
+                                <img class="icon" src="./images/button-icon.svg" alt="Icon" width="88" height="43">
+                            </a>
+                            <p class="text-work">creative design</p>
+                            <p class="text-work-web">Graphic Design</p>
+                        </div>
+                    </li>
+                    <li class="item-work-image" data-id="graphic-design">
+                        <img src="./images/graphic-design/graphic-design3.jpg" alt="Graphic design" width="284"
+                            height="206">
+                        <div class="item-work-position">
+                            <a href="#">
+                                <img class="icon" src="./images/button-icon.svg" alt="Icon" width="88" height="43">
+                            </a>
+                            <p class="text-work">creative design</p>
+                            <p class="text-work-web">Graphic Design</p>
+                        </div>
+                    </li>
+                    <li class="item-work-image" data-id="graphic-design">
+                        <img src="./images/graphic-design/graphic-design4.jpg" alt="Graphic design" width="284"
+                            height="206">
+                        <div class="item-work-position">
+                            <a href="#">
+                                <img class="icon" src="./images/button-icon.svg" alt="Icon" width="88" height="43">
+                            </a>
+                            <p class="text-work">creative design</p>
+                            <p class="text-work-web">Graphic Design</p>
+                        </div>
+                    </li>
+                    <li class="item-work-image" data-id="landing-pages">
+                        <img src="./images/landing-page/landing-page1.jpg" alt="Landing page" width="284" height="206">
+                        <div class="item-work-position">
+                            <a href="#">
+                                <img class="icon" src="./images/button-icon.svg" alt="Icon" width="88" height="43">
+                            </a>
+                            <p class="text-work">creative design</p>
+                            <p class="text-work-web">Landing Page</p>
+                        </div>
+                    </li>
+                    <li class="item-work-image" data-id="landing-pages">
+                        <img src="./images/landing-page/landing-page2.jpg" alt="Landing page" width="284" height="206">
+                        <div class="item-work-position">
+                            <a href="#">
+                                <img class="icon" src="./images/button-icon.svg" alt="Icon" width="88" height="43">
+                            </a>
+                            <p class="text-work">creative design</p>
+                            <p class="text-work-web">Landing Page</p>
+                        </div>
+                    </li>
+                    <li class="item-work-image" data-id="landing-pages">
+                        <img src="./images/landing-page/landing-page3.jpg" alt="Landing page" width="284" height="206">
+                        <div class="item-work-position">
+                            <a href="#">
+                                <img class="icon" src="./images/button-icon.svg" alt="Icon" width="88" height="43">
+                            </a>
+                            <p class="text-work">creative design</p>
+                            <p class="text-work-web">Landing Page</p>
+                        </div>
+                    </li>
+                    <li class="item-work-image" data-id="web-design">
+                        <img src="./images/web-design/web-design1.jpg" alt="Web design" width="284" height="206">
+                        <div class="item-work-position">
+                            <a href="#">
+                                <img class="icon" src="./images/button-icon.svg" alt="Icon" width="88" height="43">
+                            </a>
+                            <p class="text-work">creative design</p>
+                            <p class="text-work-web">Landing Page</p>
+                        </div>
+                    </li>
+                    <li class="item-work-image" data-id="web-design">
+                        <img src="./images/web-design/web-design2.jpg" alt="Web design" width="284" height="206">
+                        <div class="item-work-position">
+                            <a href="#">
+                                <img class="icon" src="./images/button-icon.svg" alt="Icon" width="88" height="43">
+                            </a>
+                            <p class="text-work">creative design</p>
+                            <p class="text-work-web">Web Design</p>
+                        </div>
+                    </li>
+                    <li class="item-work-image" data-id="wordpress">
+                        <img src="./images/wordpress/wordpress1.jpg" alt="Wordpress" width="284" height="206">
+                        <div class="item-work-position">
+                            <a href="#">
+                                <img class="icon" src="./images/button-icon.svg" alt="Icon" width="88" height="43">
+                            </a>
+                            <p class="text-work">creative design</p>
+                            <p class="text-work-web">Wordpress</p>
+                        </div>
+                    </li>
+                    <li class="item-work-image" data-id="wordpress">
+                        <img src="./images/wordpress/wordpress2.jpg" alt="Wordpress" width="284" height="206">
+                        <div class="item-work-position">
+                            <a href="#">
+                                <img class="icon" src="./images/button-icon.svg" alt="Icon" width="88" height="43">
+                            </a>
+                            <p class="text-work">creative design</p>
+                            <p class="text-work-web">Wordpress</p>
+                        </div>
+                    </li>
+                    <li class="item-work-image" data-id="wordpress">
+                        <img src="./images/wordpress/wordpress3.jpg" alt="Wordpress" width="284" height="206">
+                        <div class="item-work-position">
+                            <a href="#">
+                                <img class="icon" src="./images/button-icon.svg" alt="Icon" width="88" height="43">
+                            </a>
+                            <p class="text-work">creative design</p>
+                            <p class="text-work-web">Wordpress</p>
+                        </div>
+                    </li>
+                </ul>
+                <button class="button-work">
+                    <img class="image-plus" src="./images/plus.svg" alt="Plus" width="18" height="19">
+                    Load More
+                </button>
+            </div>
+        </div>
+    </section>
 
+    <section>
+        <div class="section6">
+            <div class="container">
+                <h2 class="section6-topic">Breaking News</h2>
+                <div class="news-grid">
+                    <div class="news-item">
+                        <a href="#">
+                            <div class="news-img">
+                                <img src="./images/news1.jpg" alt="news">
+                            </div>
+                            <p class="news-title">Amazing Blog Post</p>
+                            <p class="news-autor">By admin</p>
+                            <p class="news-comments">2 comment</p>
+                            <div class="news-date">
+                                <p>12</p>
+                                <p>Feb</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="news-item">
+                        <a href="#">
+                            <div class="news-img">
+                                <img src="./images/news2.jpg" alt="news">
+                            </div>
+                            <p class="news-title">Amazing Blog Post</p>
+                            <p class="news-autor">By admin</p>
+                            <p class="news-comments">2 comment</p>
+                            <div class="news-date">
+                                <p>12</p>
+                                <p>Feb</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="news-item">
+                        <a href="#">
+                            <div class="news-img">
+                                <img src="./images/news3.jpg" alt="news">
+                            </div>
+                            <p class="news-title">Amazing Blog Post</p>
+                            <p class="news-autor">By admin</p>
+                            <p class="news-comments">2 comment</p>
+                            <div class="news-date">
+                                <p>12</p>
+                                <p>Feb</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="news-item">
+                        <a href="#">
+                            <div class="news-img">
+                                <img src="./images/news4.jpg" alt="news">
+                            </div>
+                            <p class="news-title">Amazing Blog Post</p>
+                            <p class="news-autor">By admin</p>
+                            <p class="news-comments">2 comment</p>
+                            <div class="news-date">
+                                <p>12</p>
+                                <p>Feb</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="news-item">
+                        <a href="#">
+                            <div class="news-img">
+                                <img src="./images/news5.jpg" alt="news">
+                            </div>
+                            <p class="news-title">Amazing Blog Post</p>
+                            <p class="news-autor">By admin</p>
+                            <p class="news-comments">2 comment</p>
+                            <div class="news-date">
+                                <p>12</p>
+                                <p>Feb</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="news-item">
+                        <a href="#">
+                            <div class="news-img">
+                                <img src="./images/news6.jpg" alt="news">
+                            </div>
+                            <p class="news-title">Amazing Blog Post</p>
+                            <p class="news-autor">By admin</p>
+                            <p class="news-comments">2 comment</p>
+                            <div class="news-date">
+                                <p>12</p>
+                                <p>Feb</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="news-item">
+                        <a href="#">
+                            <div class="news-img">
+                                <img src="./images/news7.jpg" alt="news">
+                            </div>
+                            <p class="news-title">Amazing Blog Post</p>
+                            <p class="news-autor">By admin</p>
+                            <p class="news-comments">2 comment</p>
+                            <div class="news-date">
+                                <p>12</p>
+                                <p>Feb</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="news-item">
+                        <a href="#">
+                            <div class="news-img">
+                                <img src="./images/news8.jpg" alt="news">
+                            </div>
+                            <p class="news-title">Amazing Blog Post</p>
+                            <p class="news-autor">By admin</p>
+                            <p class="news-comments">2 comment</p>
+                            <div class="news-date">
+                                <p>12</p>
+                                <p>Feb</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-testimonials">
+            <div class="container">
+                <h2 class="section7-topic">What People Say About theHam</h2>
+                <img src="./images/combined-shape.svg" alt="" class="shapes" />
+                <div class="slider-for">
+                    <div class="item">
+                        <p class="item-text">Integer dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non
+                            dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis. Tempus ultricies
+                            luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget
+                            aliquam facilisis.</p>
+                        <p class="item-autor">Hasan Ali</p>
+                        <p class="item-autor-job">UX Designer</p>
+                        <img src="./images/slider/person1.png" alt="" class="item-img">
+                    </div>
+                    <div class="item">
+                        <p class="item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus
+                            hic fuga unde suscipit! Consequuntur doloremque sequi similique dolorem aperiam
+                            exercitationem ipsam nesciunt tempora! Aliquid molestiae non corrupti.</p>
+                        <p class="item-autor">Mikaela Nguyen</p>
+                        <p class="item-autor-job">Web Developer</p>
+                        <img src="./images/slider/person2.png" alt="" class="item-img">
+                    </div>
+                    <div class="item">
+                        <p class="item-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti velit
+                            ipsum totam ad possimus magnam neque, minima aliquam debitis beatae repellendus ab. Quos, ea
+                            possimus! Commodi impedit quibusdam consequuntur ducimus?</p>
+                        <p class="item-autor">Justine Crawford</p>
+                        <p class="item-autor-job">Webflow Developer</p>
+                        <img src="./images/slider/person3.png" alt="" class="item-img">
+                    </div>
+                    <div class="item">
+                        <p class="item-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati cumque
+                            beatae odit ducimus nam. Officia, saepe odio tempora provident, distinctio, ut perferendis
+                            fuga cupiditate facere quae nisi nemo nesciunt magnam.</p>
+                        <p class="item-autor">Payton Gomez</p>
+                        <p class="item-autor-job">Software Engineer</p>
+                        <img src="./images/slider/person4.png" alt="" class="item-img">
+                    </div>
+                    <div class="item">
+                        <p class="item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eum modi
+                            assumenda atque esse, similique placeat aspernatur est ducimus quo aperiam dignissimos
+                            tempore ab at qui obcaecati incidunt optio animi!</p>
+                        <p class="item-autor">Johnny Francis</p>
+                        <p class="item-autor-job">Content Manager</p>
+                        <img src="./images/slider/person5.png" alt="" class="item-img">
+                    </div>
+                </div>
+                <div class="slider-naw">
+                    <div class="item"><img src="./images/slider/person1.png" alt=""></div>
+                    <div class="item"><img src="./images/slider/person2.png" alt=""></div>
+                    <div class="item"><img src="./images/slider/person3.png" alt=""></div>
+                    <div class="item"><img src="./images/slider/person4.png" alt=""></div>
+                    <div class="item"><img src="./images/slider/person5.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p class="copyright">© Copyright 2015 <span>theHam</span></p>
+        <p class="copyright">All Rights Reserved</p>
+    </footer>
+
+
+    <script src="./js/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+    <script type="text/javascript" src="./slick/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/carousel.js"></script>
+    
+</body>
 </html>
